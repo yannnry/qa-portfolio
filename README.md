@@ -1,103 +1,95 @@
 # Manual QA Software Testing Portfolio
 
-Hi, I am **Joshua Ryan Altar**, a Manual QA Software Tester with professional experience testing a live web-based EASA ATPL learning platform.
+Hi, I am **Joshua Ryan Altar**, a Manual QA Engineer with professional experience testing PSPACE, a live web-based EASA ATPL adaptive learning platform.
 
-My QA work involves validating software functionality, identifying defects, verifying fixes, and supporting release quality through structured and exploratory testing. I also evaluate user-facing behavior across usability, accessibility, and basic security areas.
+My work centers on validating software functionality, identifying and documenting defects, verifying fixes, and supporting release quality through structured and exploratory testing. I also evaluate user-facing behavior across usability, accessibility, and security-adjacent areas, and I compile findings into audit-style reports used directly by development teams for release planning.
 
 ## About This Portfolio
 
-This repository contains selected examples of my software testing work and testing approach, including:
+This repository contains selected examples of my testing work and my testing process, including:
 
 * Test cases
 * Test scenarios
 * Bug reports
-* Test checklists
-* Test plans
-* Test reports
-* Exploratory testing
-* Security testing examples
-* QA case studies
+* Checklists
+* Case studies (combining test planning, execution, and reporting)
+* Exploratory and security-oriented testing examples
 
-Some materials have been **sanitized or independently recreated** to demonstrate testing methods without exposing confidential company information or proprietary content.
+Some materials are **sanitized or independently recreated**. Screenshots, internal tickets, proprietary URLs, and confidential implementation details are excluded; the structure, reasoning, and findings reflect real testing work.
+
+## Testing Methodology
+
+I classify every finding using a fixed set of categories rather than an open-ended label, so severity and priority stay consistent across a full report instead of drifting case by case:
+
+| Finding Type | Prefix | Meaning |
+|---|---|---|
+| Bug | `BUG-` | Reproducible defect in functionality, presentation, or interaction |
+| Security Risk | `SEC-` | Security or content-protection risk backed by observed behavior |
+| Performance | `PERF-` | Measurable or reproducible performance degradation |
+| Accessibility | `A11Y-` | Accessibility barrier or WCAG-related issue |
+| UX Improvement | `UX-` | Working feature that is confusing, inefficient, or inconsistent |
+| Positive Finding | `POS-` | Working-as-intended behavior worth documenting |
+
+Severity (impact) and priority (urgency to fix) are tracked as separate fields, not treated as interchangeable, and every finding distinguishes fact and direct observation from inference or hypothesis.
 
 ## Professional QA Experience
 
-### PSPACE APP
+### PSPACE
 
-**Manual QA / QA Contributor**
+**QA Engineer** · Feb 2025 – Present
 
-Manual QA experience within a live web-based EASA ATPL learning platform.
+EASA ATPL adaptive learning platform (pspace.app), serving as the primary QA checkpoint before releases.
 
-My testing activities have included:
+Responsibilities include:
 
-* Functional testing
-* Regression testing
-* Exploratory testing
-* Security-oriented testing
-* Usability and UX testing
-* Accessibility checks
-* Defect identification and reporting
-* Defect verification
-* Release validation
+* Functional, regression, and exploratory testing
+* Security-oriented testing (CSRF, CSP, auth bypass awareness)
+* Accessibility auditing against WCAG AA
+* Performance observation (page load, asset payload audits)
+* Full-cycle QA audit reporting with severity/priority classification and root-cause hypotheses
+* Defect verification and release validation
 * Test case and test scenario design
 
 ## QA Case Studies
 
-Detailed case studies will be added to demonstrate my testing process, findings, and reasoning.
-
-Planned case studies include:
-
 * Authentication and Account Testing
 * 50-Question Free Trial Testing
 * Question Bank Testing
-* Security Testing
+* Security Testing (CSRF, deadline-bypass verification)
 * Regression and Release Testing
+
+See `case-studies/` for details.
 
 ## QA Artifacts
 
-| Artifact           | Description                                                                                        |
-| ------------------ | -------------------------------------------------------------------------------------------------- |
-| **Test Cases**     | Structured test conditions, steps, and expected results                                            |
-| **Bug Reports**    | Defect reports containing reproduction steps, expected and actual results, and supporting evidence |
-| **Test Scenarios** | High-level testing conditions used to define functional coverage                                   |
-| **Checklists**     | Reusable checks for common testing and regression activities                                       |
-| **Test Plans**     | Testing scope, objectives, approach, risks, and requirements                                       |
-| **Test Reports**   | Test execution results, findings, and release observations                                         |
+| Folder | Description |
+|---|---|
+| `test-cases/` | Structured test conditions, steps, and expected results |
+| `bug-reports/` | Defect reports with reproduction steps, expected/actual results, severity, and priority |
+| `test-scenarios/` | High-level testing conditions used to define functional coverage |
+| `checklists/` | Reusable checks for common testing and regression activities |
+| `case-studies/` | Combined test plan, execution, findings, and verification for a specific feature or flow |
 
 ## Tools & Technologies
 
-### Testing
+**Testing**
+Manual Testing · Functional Testing · Regression Testing · Exploratory Testing · Usability Testing · Security-Oriented Testing · Accessibility Auditing (WCAG AA)
 
-* Manual Testing
-* Functional Testing
-* Regression Testing
-* Exploratory Testing
-* Usability Testing
-* Basic Security Testing
+**Tools**
+Jira · TestRail · GitHub · Chrome DevTools (Network, Console, Coverage) · Microsoft Excel · Google Sheets · Postman
 
-### Tools
-
-* ClickUp
-* GitHub
-* Chrome DevTools
-* Microsoft Excel
-* Google Sheets
-* Postman
-
-### Currently Learning
-
-* ISTQB® Certified Tester Foundation Level (CTFL) v4.0.1
-* Software Testing Techniques
-* API Testing
-* SQL and Database Testing
+**Currently Learning**
+ISTQB® Certified Tester Foundation Level (CTFL) v4.0.1 · API Testing · SQL and Database Testing · Test Automation Fundamentals
 
 ## Certifications & Training
 
-Training and certification details will be added here.
+* Software QA Manual Testing (Hands-On: Jira, TestRail, Excel) — MSTConnect Educational Consultancy, July 2026
+* CS107: C++ Programming Language — Saylor.org Academy, April 2021
+* Claude 101 — Anthropic Education, August 2026
 
 ## Resume
 
-My resume will be added here.
+[View Resume](#) <!-- link to hosted PDF once available -->
 
 ## Contact
 
