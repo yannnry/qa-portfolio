@@ -91,6 +91,22 @@ ISTQB® Certified Tester Foundation Level (CTFL) v4.0.1 · API Testing · SQL an
 
 [View Resume](#) <!-- link to hosted PDF once available -->
 
+
+
+
+
+## How These Folders Connect
+
+The five folders are not independent collections — each documents the same underlying testing work from a different angle. To see the full thread, follow one finding across the repo:
+
+1. **`test-scenarios/`** states the condition worth testing (e.g. `SCN-02` — answer option validation).
+2. **`test-cases/`** derives specific, steppable cases from that scenario using equivalence partitioning.
+3. Running those cases surfaces a defect, documented as a standalone report in **`bug-reports/`**.
+4. **`case-studies/`** places that same defect in context — objective, execution, and the reasoning behind its severity and priority.
+5. **`checklists/`** turns the lesson into something reusable, so the same class of defect gets caught earlier next release.
+
+Start anywhere; each piece links back to the others.
+
 ## Contact
 
 GitHub: [@yannnry](https://github.com/yannnry)
