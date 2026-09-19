@@ -89,7 +89,7 @@ ISTQB® Certified Tester Foundation Level (CTFL) v4.0.1 · API Testing · SQL an
 
 ## Resume
 
-[View Resume](#) <!-- link to hosted PDF once available -->
+[View Resume](resume/Joshua-Altar-Resume.pdf) <!-- link to hosted PDF once available -->
 
 
 
